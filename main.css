@@ -1,0 +1,21 @@
+body {
+    background-color: cornflowerblue;
+}
+
+
+.container {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.projectCard {
+    border: 2px solid black;
+    width: 25%;
+    text-align: center;
+}
+
+.projectScreenshot {
+    display: block;
+    margin: auto;
+}
