@@ -1,21 +1,52 @@
 body {
+    margin:0;
+    padding:0;
     background-color: cornflowerblue;
 }
 
-
 .container {
+    width: 90%;
+    margin: auto;
     display: flex;
     flex-flow: wrap row;
     justify-content: space-around;
     align-content: space-around;
 }
+
 .projectCard {
     border: 2px solid black;
+    border-radius: 5%;
+    box-shadow: -7px 2px 0px darkgrey, -12px 7px 0px black;
     width: 25%;
     text-align: center;
+    padding: 1em;
+
 }
 
 .projectScreenshot {
     display: block;
     margin: auto;
+}
+
+.page-footer {
+    margin-top: 3em;
+    background-color: lightblue;
+    position: fixed;
+    width:100%;
+    bottom:0px;
+}
+#contacts {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin-right: 5em;
+}
+.contact {
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.fab {
+    padding-top: .25em;
 }
