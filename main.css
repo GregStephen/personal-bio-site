@@ -4,6 +4,9 @@ body {
     background-color: cornflowerblue;
 }
 
+a {
+    text-decoration: none;
+}
 .container {
     width: 90%;
     margin: auto;
@@ -19,10 +22,13 @@ body {
     box-shadow: -7px 2px 0px darkgrey, -12px 7px 0px black;
     width: 25%;
     text-align: center;
-    padding: 1em;
-
+    padding: 2em;
 }
 
+.projectTitle {
+    font-weight: bold;
+    
+}
 .projectScreenshot {
     display: block;
     margin: auto;
@@ -34,11 +40,12 @@ body {
     position: fixed;
     width:100%;
     bottom:0px;
+    border-top: 2px solid black;
 }
 #contacts {
     display: flex;
     flex-flow: wrap row;
-    justify-content: flex-end;
+    justify-content: center;
     align-content: flex-end;
     margin-right: 5em;
 }

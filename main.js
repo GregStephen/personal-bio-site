@@ -52,7 +52,7 @@ const createProjectCards = () => {
             domString +=    `<p class="projectDescription">${projects[i].description}</p>`;
             domString +=    `<p class="projectTechUsed">${projects[i].technologiesUsed}</p>`;
             domString +=    `<p class="url">See it <a target="_blank" href=${projects[i].url}>here</a></p>`;
-            domString +=    `<p class="githubUrl"><a target="_blank" href=${projects[i].githubUrl}>GITHUB</a></p>`;
+            domString +=    `<p class="githubUrl"><a class="fab fa-2x fa-github-alt" target="_blank" href=${projects[i].githubUrl}></a></p>`;
             domString += `</div>`;
         }
     };
