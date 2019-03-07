@@ -17,23 +17,40 @@ a {
 }
 
 .projectCard {
+    background-color: cornflowerblue;
+    width:90%;
+    min-width: 300px;
+    max-width: 450px;
     border: 2px solid black;
     border-radius: 5%;
-    box-shadow: -7px 2px 0px darkgrey, -12px 7px 0px black;
-    width: 25%;
+    box-shadow: -7px 3px 0px rgb(165, 189, 233), -10px 7px 0px darkgrey, -13px 10px 0px black;
+    width: 80%;
     text-align: center;
     padding: 2em;
+    margin: 1em;
 }
 
 .projectTitle {
+    font-size: 1.85em;
     font-weight: bold;
-    
 }
+
+hr {
+    height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px black inset;
+}
+
 .projectScreenshot {
     display: block;
     margin: auto;
+    width: 100%;
+    border-radius: 5%;
 }
 
+.hrUp {
+    box-shadow: 0 -10px 10px -10px black inset;
+}
 .page-footer {
     margin-top: 3em;
     background-color: lightblue;
@@ -44,16 +61,67 @@ a {
 }
 #contacts {
     display: flex;
-    flex-flow: wrap row;
+    width:100%;
+    flex-flow: column;
     justify-content: center;
-    align-content: flex-end;
+    align-content: center;
     margin-right: 5em;
 }
 .contact {
-    margin-right: 1em;
-    margin-left: 1em;
+    margin:auto;
+    margin-top: .5em;
 }
 
+#socialContact {
+    display:flex;
+    margin-bottom: .5em;
+}
 .fab {
     padding-top: .25em;
+}
+
+
+/*////////////// MEDIA QUERIES ///////////*/
+
+@media (min-width: 640px) {
+
+}
+
+@media (min-width: 800px) {
+
+    .projectCard {
+        border: 2px solid black;
+        border-radius: 5%;
+        min-width: 200px;
+        max-width: 500px;
+        width: 25%;
+        text-align: center;
+        padding: 2em;
+        margin: .5em;
+    }
+
+    .page-footer {
+        margin-top: 3em;
+        background-color: lightblue;
+        position: fixed;
+        width:100%;
+        bottom:0px;
+        border-top: 2px solid black;
+    }
+    #contacts {
+        display: flex;
+        flex-flow: wrap row;
+        justify-content: center;
+        align-content: flex-end;
+        margin-right: 5em;
+    }
+    .contact {
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    
+    .fab {
+        padding-top: .25em;
+    }
+
 }
