@@ -1,7 +1,8 @@
 body {
     margin:0;
     padding:0;
-    background-color: cornflowerblue;
+    background-color: rgb(83, 126, 204);
+    padding-bottom: 50px;
 }
 
 a {
@@ -17,23 +18,37 @@ a {
 }
 
 .projectCard {
-    border: 2px solid black;
-    border-radius: 5%;
-    box-shadow: -7px 2px 0px darkgrey, -12px 7px 0px black;
-    width: 25%;
+    background-color: cornflowerblue;
+    min-width: 300px;
+    max-width: 450px;
+    width: 100%;
     text-align: center;
     padding: 2em;
+    margin: 1em;
+    border-bottom: 1px dashed lightblue;
 }
 
 .projectTitle {
+    font-size: 1.85em;
     font-weight: bold;
-    
 }
+
+hr {
+    height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px black inset;
+}
+
 .projectScreenshot {
     display: block;
     margin: auto;
+    width: 100%;
+    border-radius: 5%;
 }
 
+.hrUp {
+    box-shadow: 0 -10px 10px -10px black inset;
+}
 .page-footer {
     margin-top: 3em;
     background-color: lightblue;
@@ -44,16 +59,70 @@ a {
 }
 #contacts {
     display: flex;
-    flex-flow: wrap row;
+    width:100%;
+    flex-flow: column;
     justify-content: center;
-    align-content: flex-end;
+    align-content: center;
     margin-right: 5em;
 }
 .contact {
-    margin-right: 1em;
-    margin-left: 1em;
+    margin:auto;
+    margin-top: .5em;
 }
 
+#socialContact {
+    display:flex;
+    margin-bottom: .5em;
+}
 .fab {
     padding-top: .25em;
+}
+
+
+/*////////////// MEDIA QUERIES ///////////*/
+
+@media (min-width: 600px) {
+    body {
+        padding-bottom: 150px;
+    }
+    .projectCard {
+        border: 2px solid black;
+        border-radius: 5%;
+        box-shadow: -3px 3px 0px rgb(165, 189, 233), 
+                    -5px 5px 0px rgb(78, 103, 150),
+                    -7px 7px 0px rgb(64, 95, 151),
+                    -9px 9px 0px darkgrey, 
+                    -12px 12px 0px black;
+    }
+
+}
+
+@media (min-width: 800px) {
+
+    .projectCard {
+        min-width: 200px;
+        max-width: 500px;
+        width: 33%;
+        margin: 1.5em;
+    }
+
+    .page-footer {
+        margin-top: 3em;
+        background-color: lightblue;
+        position: fixed;
+        width:100%;
+        bottom:0px;
+        border-top: 2px solid black;
+    }
+    #contacts {
+        flex-flow: wrap row;
+    }
+    .contact {
+        margin: auto;
+        margin-right: 1em;
+        margin-left: 1em;
+        
+    }
+    
+
 }
