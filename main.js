@@ -34,6 +34,33 @@ const projects = [
         available: false,
         url: "https://github.com/nss-evening-cohort-8/js-part-deux", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
         githubUrl: "https://github.com/nss-evening-cohort-8/js-part-deux",
+      },
+      {
+        title: "UNCool Project", 
+        screenshot: "https://www.classicgame.com/uploaded/thumb/pacmanclassic_300x200.jpg", 
+        description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
+        technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+        available: true,
+        url: "https://github.com/nss-evening-cohort-8/js-part-deux", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
+        githubUrl: "https://github.com/nss-evening-cohort-8/js-part-deux",
+      },
+      {
+        title: "Cool Project", 
+        screenshot: "https://www.classicgame.com/uploaded/thumb/pacmanclassic_300x200.jpg", 
+        description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
+        technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+        available: true,
+        url: "https://github.com/nss-evening-cohort-8/js-part-deux", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
+        githubUrl: "https://github.com/nss-evening-cohort-8/js-part-deux",
+      },
+      {
+        title: "Cool Project", 
+        screenshot: "https://www.classicgame.com/uploaded/thumb/pacmanclassic_300x200.jpg", 
+        description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
+        technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+        available: true,
+        url: "https://github.com/nss-evening-cohort-8/js-part-deux", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
+        githubUrl: "https://github.com/nss-evening-cohort-8/js-part-deux",
       }
 ];
 

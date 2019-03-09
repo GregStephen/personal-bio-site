@@ -1,7 +1,8 @@
 body {
     margin:0;
     padding:0;
-    background-color: cornflowerblue;
+    background-color: rgb(83, 126, 204);
+    padding-bottom: 50px;
 }
 
 a {
@@ -18,16 +19,13 @@ a {
 
 .projectCard {
     background-color: cornflowerblue;
-    width:90%;
     min-width: 300px;
     max-width: 450px;
-    border: 2px solid black;
-    border-radius: 5%;
-    box-shadow: -7px 3px 0px rgb(165, 189, 233), -10px 7px 0px darkgrey, -13px 10px 0px black;
-    width: 80%;
+    width: 100%;
     text-align: center;
     padding: 2em;
     margin: 1em;
+    border-bottom: 1px dashed lightblue;
 }
 
 .projectTitle {
@@ -83,21 +81,29 @@ hr {
 
 /*////////////// MEDIA QUERIES ///////////*/
 
-@media (min-width: 640px) {
+@media (min-width: 600px) {
+    body {
+        padding-bottom: 150px;
+    }
+    .projectCard {
+        border: 2px solid black;
+        border-radius: 5%;
+        box-shadow: -3px 3px 0px rgb(165, 189, 233), 
+                    -5px 5px 0px rgb(78, 103, 150),
+                    -7px 7px 0px rgb(64, 95, 151),
+                    -9px 9px 0px darkgrey, 
+                    -12px 12px 0px black;
+    }
 
 }
 
 @media (min-width: 800px) {
 
     .projectCard {
-        border: 2px solid black;
-        border-radius: 5%;
         min-width: 200px;
         max-width: 500px;
-        width: 25%;
-        text-align: center;
-        padding: 2em;
-        margin: .5em;
+        width: 33%;
+        margin: 1.5em;
     }
 
     .page-footer {
@@ -109,19 +115,14 @@ hr {
         border-top: 2px solid black;
     }
     #contacts {
-        display: flex;
         flex-flow: wrap row;
-        justify-content: center;
-        align-content: flex-end;
-        margin-right: 5em;
     }
     .contact {
+        margin: auto;
         margin-right: 1em;
         margin-left: 1em;
+        
     }
     
-    .fab {
-        padding-top: .25em;
-    }
 
 }
