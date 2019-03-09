@@ -9,7 +9,7 @@ a {
     text-decoration: none;
 }
 .container {
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-flow: wrap row;
@@ -24,7 +24,6 @@ a {
     width: 100%;
     text-align: center;
     padding: 2em;
-    margin: 1em;
     border-bottom: 1px dashed lightblue;
 }
 
@@ -81,11 +80,14 @@ hr {
 
 /*////////////// MEDIA QUERIES ///////////*/
 
+
+/*///////////TABLETS////////////*/
 @media (min-width: 600px) {
     body {
         padding-bottom: 150px;
     }
     .projectCard {
+        margin: 1em;
         border: 2px solid black;
         border-radius: 5%;
         box-shadow: -3px 3px 0px rgb(165, 189, 233), 
@@ -97,6 +99,8 @@ hr {
 
 }
 
+
+/*//////////////////COMPUTER ///////////////////*/
 @media (min-width: 800px) {
 
     .projectCard {
