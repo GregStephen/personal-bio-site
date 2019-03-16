@@ -1,13 +1,41 @@
 body {
     margin:0;
     padding:0;
-    background-color: rgb(83, 126, 204);
+    background-color: cornflowerblue;
     padding-bottom: 50px;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 a {
     text-decoration: none;
 }
+
+li {
+    list-style: none;
+    margin:1em;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+#myName {
+    text-align: center;
+}
+
+#navLinks {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.25em;
+    margin-top: -1em;
+}
+.bioBit {
+    background-color: aliceblue;
+    padding: 1em;
+}
+
 .container {
     width: 100%;
     margin: auto;
@@ -48,6 +76,7 @@ hr {
 .hrUp {
     box-shadow: 0 -10px 10px -10px black inset;
 }
+
 .page-footer {
     margin-top: 3em;
     background-color: lightblue;
@@ -56,6 +85,7 @@ hr {
     bottom:0px;
     border-top: 2px solid black;
 }
+
 #contacts {
     display: flex;
     width:100%;
@@ -73,6 +103,7 @@ hr {
     display:flex;
     margin-bottom: .5em;
 }
+
 .fab {
     padding-top: .25em;
 }
@@ -85,7 +116,13 @@ hr {
 @media (min-width: 600px) {
     body {
         padding-bottom: 150px;
+        background-color: rgb(83, 126, 204);
     }
+
+    #myName {
+        font-size: 2em;
+    }
+
     .projectCard {
         margin: 1em;
         border: 2px solid black;
@@ -103,6 +140,14 @@ hr {
 /*//////////////////COMPUTER ///////////////////*/
 @media (min-width: 800px) {
 
+    #myName {
+        font-size: 3em;
+    }
+
+    #navLinks {
+        font-size: 2em;
+    }
+
     .projectCard {
         min-width: 200px;
         max-width: 500px;
@@ -118,9 +163,11 @@ hr {
         bottom:0px;
         border-top: 2px solid black;
     }
+
     #contacts {
         flex-flow: wrap row;
     }
+
     .contact {
         margin: auto;
         margin-right: 1em;
