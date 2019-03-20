@@ -63,6 +63,13 @@ const projects = [
         githubUrl: "https://github.com/nss-evening-cohort-8/js-part-deux",
       }
 ];
+let anchors = document.getElementsByTagName("a");
+const navToBio = document.getElementById("navToBio");
+const navToTech = document.getElementById("navToTechnologies");
+const navToProj = document.getElementById("navToProjects");
+const bioPage = document.getElementById("bioPage");
+const techPage = document.getElementById("technologiesPage");
+const projPage = document.getElementById("projectsPage");
 
 const printToDom = (divId, textToPrint) => {
     let selectedDiv = document.getElementById(divId);
@@ -88,7 +95,33 @@ const createProjectCards = () => {
     printToDom('projectsPage', domString)
 };
 
+// anchors.addEventListener('click', function(e){
 
+//   e.preventDefault();
+
+
+// });
+
+navToBio.addEventListener('click', function(e){
+  e.preventDefault();
+bioPage.style.display = "block";
+techPage.style.display = "none";
+projPage.style.display = "none";
+});
+
+navToTech.addEventListener('click', function(e){
+  e.preventDefault();
+  bioPage.style.display = "none";
+  techPage.style.display = "block";
+  projPage.style.display = "none";
+});
+
+navToProj.addEventListener('click', function(e){
+  e.preventDefault();
+  bioPage.style.display = "none";
+  techPage.style.display = "none";
+  projPage.style.display = "flex";
+});
 
 const init = () => {
     createProjectCards();

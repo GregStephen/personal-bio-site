@@ -45,6 +45,9 @@ li:hover {
     align-content: space-around;
 }
 
+#bioPage {
+    display: block;
+}
 .projectCard {
     background-color: cornflowerblue;
     min-width: 300px;
