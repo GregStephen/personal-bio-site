@@ -14,7 +14,7 @@
 ![Projects Page](./assets/screenshots/projects_page.png)
 
 #### Mobile projects page:
-![Mobile Page Load](./assets/screenshots/projects_page_load.png)
+![Mobile Page Load](./assets/screenshots/projects_page_mobile.png)
 
 ## Technologies Used: 
 * HTML5
