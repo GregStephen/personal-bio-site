@@ -1,17 +1,28 @@
 # Personal Bio Site
 
-### Descripton:
-##### A site that showcases my coding projects as well as says a little bit about myself
+## Descripton:
+#### A site that showcases my coding projects as well as says a little bit about myself
 
+## Screenshots
+#### Bio page:
+![Page Load](./assets/screenshots/page_load.png)
 
+#### Mobile bio page:
+![Mobile Page Load](./assets/screenshots/page_load_mobile.png)
 
-### Technologies Used: 
+#### Projects page:
+![Projects Page](./assets/screenshots/projects_page.png)
+
+#### Mobile projects page:
+![Mobile Page Load](./assets/screenshots/projects_page_load.png)
+
+## Technologies Used: 
 * HTML5
 * CSS
 * JavaScript
 * Flexbox
 
-### How to run:
+## How to run:
 
 1. Go to: `https://www.npmjs.com/package/http-server` and install "http-server".  
 2. Navigate to the project folder in command line interface and type: `http-server -p 8080`  

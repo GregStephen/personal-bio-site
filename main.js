@@ -63,7 +63,7 @@ const projects = [
         githubUrl: "https://github.com/nss-evening-cohort-8/js-part-deux",
       }
 ];
-let anchors = document.getElementsByTagName("a");
+let navLinks = document.getElementsByClassName("navLink");
 const navToBio = document.getElementById("navToBio");
 const navToTech = document.getElementById("navToTechnologies");
 const navToProj = document.getElementById("navToProjects");
@@ -99,26 +99,29 @@ const createProjectCards = () => {
 };
 
 const showBioPage = () => {
+  scroll(0,0);
   bioPage.style.display = "block";
   techPage.style.display = "none";
   projPage.style.display = "none";
 };
 
 const showTechPage = () => {
+  scroll(0,0);
   bioPage.style.display = "none";
   techPage.style.display = "block";
   projPage.style.display = "none";
 };
 
 const showProjPage = () => {
+  scroll(0,0);
   bioPage.style.display = "none";
   techPage.style.display = "none";
   projPage.style.display = "flex";
 };
 
 const eventListeners = () => {
-  for (const anchorBtn of anchors) {
-    anchorBtn.addEventListener('click', anchorClickFunction);
+  for (const navLinkBtn of navLinks) {
+    navLinkBtn.addEventListener('click', anchorClickFunction);
   }
 };
 
@@ -129,7 +132,7 @@ const anchorClickFunction = (e) => {
     showBioPage();
   } else if(navBtnId === "navToTechnologies"){
     showTechPage();
-  } else if (navBtnId === "navToProjects"){
+  } else if (navBtnId === "navToProjects" || navBtnId === "navToProj"){
     showProjPage();
   }
 };
