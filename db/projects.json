@@ -1,0 +1,20 @@
+{
+  "project1": {
+    "title": "Movie Tracker",
+    "githubLink": "https://github.com/GregStephen/movieHistory",
+    "deployLink": "https://moviehistory-637af.firebaseapp.com/",
+    "techUsed": ["HTML", "JavaScript", "SCSS", "Firebase"]
+  },
+  "project2": {
+    "title": "Almost Tamagotchi",
+    "githubLink": "https://github.com/GregStephen/tamagotchi",
+    "deployLink": "",
+    "techUsed": ["HTML", "JavaScript", "SCSS"]
+  },
+  "project3": {
+    "title": "Nutshell",
+    "githubLink": "https://github.com/GregStephen/nutshell-peanut",
+    "deployLink": "",
+    "techUsed": ["HTML", "JavaScript", "SCSS", "Firebase", "Moment.js"]
+  }
+}
