@@ -31,7 +31,16 @@ const createProjectCards = () => {
         // domString +=    `<p class="projectDescription">${projects.description}</p>`;
         domString +=    '<p class="projectTechUsed">';
         project.techUsed.forEach((tech) => {
-          domString += `${tech}, `;
+          if (tech === 'HTML'){
+            tech = '<i class="tech-icon fab fa-2x fa-html5"></i>';
+          } else if (tech === "SCSS") {
+            tech = '<i class="tech-icon fab fa-2x fa-sass"></i>';
+          } else if (tech === "JavaScript") {
+            tech = '<i class="tech-icon fab fa-2x fa-js-square"></i>';
+          } else if (tech === "React") {
+            tech ='<i class="tech-icon fab fa-2x fa-react"></i>';
+          }
+          domString += `${tech}`;
         })
         domString += '</p>';
         domString +=    `<p class="url">See it <a target="_blank" href=${project.deployLink}>here</a></p>`;
