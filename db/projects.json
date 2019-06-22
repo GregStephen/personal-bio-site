@@ -1,0 +1,23 @@
+{
+  "project1": {
+    "title": "Movie Tracker",
+    "githubLink": "https://github.com/GregStephen/movieHistory",
+    "deployLink": "https://moviehistory-637af.firebaseapp.com/",
+    "screenshot": "https://github.com/GregStephen/movieHistory/raw/master/assets/screenshots/full_page.png",
+    "techUsed": ["HTML", "JavaScript", "SCSS", "Firebase"]
+  },
+  "project2": {
+    "title": "Doggy Daycare",
+    "githubLink": "https://github.com/GregStephen/doggyDaycare",
+    "deployLink": "https://doggy-daycare-74511.firebaseapp.com/",
+    "screenshot": "http://tippvet.com/wp-content/uploads/2017/02/IMG_3211-Copy.jpg",
+    "techUsed": ["HTML", "JavaScript", "SCSS", "React"]
+  },
+  "project3": {
+    "title": "Nutshell",
+    "githubLink": "https://github.com/GregStephen/nutshell-peanut",
+    "deployLink": "https://nutshell-668f6.firebaseapp.com/",
+    "screenshot": "https://github.com/GregStephen/nutshell-peanut/raw/master/assets/screenshots/landing_page.png",
+    "techUsed": ["HTML", "JavaScript", "SCSS", "Firebase", "Moment.js"]
+  }
+}
