@@ -96,6 +96,9 @@ li:hover {
     border-bottom: 1px dashed lightblue;
 }
 
+.tech-icon {
+    margin-left: 1em;
+}
 .projectTitle {
     font-size: 1.85em;
     font-weight: bold;
