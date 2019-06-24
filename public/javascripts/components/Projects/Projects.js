@@ -12,7 +12,7 @@ const createProjectCards = () => {
         domString +=    `<hr>`;
         domString +=    `<img class="projectScreenshot" src=${project.screenshot}>`;
         domString +=    `<hr class="hrUp">`;
-        // domString +=    `<p class="projectDescription">${projects.description}</p>`;
+        domString +=    `<p class="projectDescription">${project.description}</p>`;
         domString +=    '<p class="projectTechUsed">';
         project.techUsed.forEach((tech) => {
           if (tech === 'HTML'){
