@@ -1,13 +1,13 @@
 import util from '../../helpers/util.js';
 import projectData from '../../helpers/data/projectData.js';
 
-
 const createProjectCards = () => {
   let domString = '';
+  domString += '<div class="row justify-content-around">';
   projectData.getProjects()
     .then((projects) => {
       projects.forEach((project) => {
-        domString += `<div class="projectCard">`;
+        domString += `<div class="projectCard col-11 col-md-10 col-lg-4">`;
         domString +=    `<div class="projectTitle">${project.title}</div>`;
         domString +=    `<hr>`;
         domString +=    `<img class="projectScreenshot" src=${project.screenshot}>`;
@@ -31,6 +31,7 @@ const createProjectCards = () => {
         domString +=    `<p class="githubUrl"><a class="fab fa-2x fa-github-alt" target="_blank" href=${project.githubLink}></a></p>`;
         domString += `</div>`;
       })
+      domString += '</div>';
       util.printToDom('projectsPage', domString);
     })
     .catch(err => console.error(err));

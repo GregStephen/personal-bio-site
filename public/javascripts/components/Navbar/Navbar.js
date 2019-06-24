@@ -1,50 +1,36 @@
-let navLinks = document.getElementsByClassName("navLink");
-const bioPage = document.getElementById("bioPage");
-const techPage = document.getElementById("technologiesPage");
-const projPage = document.getElementById("projectsPage");
+import util from "../../helpers/util.js";
 
-/////////////////////////////////////////////
-/////////////////FUNCTIONS///////////////////
-/////////////////////////////////////////////
-
-
-const showBioPage = () => {
-  scroll(0,0);
-  bioPage.style.display = "block";
-  techPage.style.display = "none";
-  projPage.style.display = "none";
-};
-
-const showTechPage = () => {
-  scroll(0,0);
-  bioPage.style.display = "none";
-  techPage.style.display = "block";
-  projPage.style.display = "none";
-};
-
-const showProjPage = () => {
-  scroll(0,0);
-  bioPage.style.display = "none";
-  techPage.style.display = "none";
-  projPage.style.display = "flex";
-};
+const pages = $('.fullPage');
 
 const eventListeners = () => {
-  for (const navLinkBtn of navLinks) {
-    navLinkBtn.addEventListener('click', anchorClickFunction);
-  }
+  $('#navbar').on('click', '.navLink', (e) => {
+    const target = $(e.target);
+    const pageToLoad = (target.data('page'));
+    pages.addClass('hide');
+    $(`#${pageToLoad}`).removeClass('hide');
+  });
+  $('#bioPage').on('click', '.navLink', (e) => {
+    const target = $(e.target);
+    const pageToLoad = (target.data('page'));
+    pages.addClass('hide');
+    $(`#${pageToLoad}`).removeClass('hide');
+    scroll(0,0);
+  });
 };
 
-const anchorClickFunction = (e) => {
-  e.preventDefault();
-  const navBtnId = e.target.id;
-  if(navBtnId === "navToBio"){
-    showBioPage();
-  } else if(navBtnId === "navToTechnologies"){
-    showTechPage();
-  } else if (navBtnId === "navToProjects" || navBtnId === "navToProj"){
-    showProjPage();
-  }
+const buildNavbar = () => {
+  let domstring = '';
+  domstring += '<h2 id="myName">Greg Stephen</h2>';
+  domstring += '<hr>';
+  domstring += '<div class="navigationList">';
+  domstring += '<ul id="navLinks">';
+  domstring += '<li><a class="navLink" data-page="bioPage" id="navToBio"> <span class="fas fa-user"></span> Bio</a></li>';
+  domstring += '<li><a class="navLink" data-page="technologiesPage" id="navToTechnologies"><span class="fas fa-file-code"></span> Technologies</a></li>';
+  domstring += '<li><a class="navLink" data-page="projectsPage" id="navToProjects"><span class="fas fa-cogs"></span> Projects</a></li>';
+  domstring += '</ul>';
+  domstring += '</div>';
+  util.printToDom('navbar', domstring);
+  eventListeners();
 };
 
-export default { eventListeners, showBioPage };
+export default { eventListeners, buildNavbar };

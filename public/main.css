@@ -19,6 +19,10 @@ li:hover {
     cursor: pointer;
 }
 
+.hide {
+    display: none;
+}
+
 #myName {
     margin-top: .5em;
     text-align: center;
@@ -59,7 +63,6 @@ li:hover {
     width: 100%;
 } */
 #bioPage {
-    display: block;
     margin-top: 3em;
 }
 
@@ -77,20 +80,8 @@ li:hover {
 }
 /*//////// PROJECT PAGE ///////*/
 
-.fullContainer {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-flow: wrap row;
-    justify-content: space-around;
-    align-content: space-around;
-}
-
 .projectCard {
     background-color: cornflowerblue;
-    min-width: 300px;
-    max-width: 450px;
-    width: 100%;
     text-align: center;
     padding: 2em;
     border-bottom: 1px dashed lightblue;
@@ -227,13 +218,6 @@ hr {
         border: 5px solid lightblue;
         display: block;
         border-radius: 50%;
-    }
-
-    .projectCard {
-        min-width: 200px;
-        max-width: 500px;
-        width: 33%;
-        margin: 1.5em;
     }
 
     .page-footer {

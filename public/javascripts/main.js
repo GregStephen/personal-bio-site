@@ -6,9 +6,8 @@ import bioPage from './components/Bio/Bio.js';
 
 const init = () => {
   firebase.initializeApp(apiKeys.firebaseConfig);
-  navBar.eventListeners();
+  navBar.buildNavbar();
   bioPage.buildBioPage();
-  navBar.showBioPage();
   projectPage.createProjectCards();
 };
 

@@ -4,8 +4,8 @@ const buildBioPage = () => {
   let domString = '';
   domString += '<div class="bioDiv row justify-content-sm-center align-items-center">';
   domString += '<img id="bioPic" class="col-12 col-sm-5 col-lg-5" src="../assets/pictures/me_and_lu.jpg" alt="me and my daughter">';
-  domString += '<p class="bioBit col-12 col-sm-5 offset-sm-1 col-lg-5">I’m an aspiring full stack web developer living in Nashville, TN! Interested in all things code,';
-  domString += 'I began delving deep into the world of programming with self study using Udemy, Team Treehouse and other various applications.';
+  domString += '<p class="bioBit col-12 col-sm-5 offset-sm-1 col-lg-5">I’m an aspiring full stack web developer living in Nashville, TN! Interested in all things code, ';
+  domString += 'I began delving deep into the world of programming with self study using Udemy, Team Treehouse and other various applications. ';
   domString += 'I have been a student at NSS since February 2019 learning HTML, CSS, JavaScript and C#, creating multiple website applications in the process';
   domString += 'and getting familiar with working with a team on a project.';
   domString += '</p>';
@@ -19,10 +19,10 @@ const buildBioPage = () => {
   domString += '</p>';
   domString += '</div>';
   domString += '<div class="bioDiv row justify-content-sm-center align-items-center">';
-  domString += '<a id="navToProj" class="navLink col-12 col-md-4">Checkout my projects!</a>';
+  domString += '<a id="navToProj" data-page="projectsPage" class="navLink col-12 col-md-4">Checkout my projects!</a>';
   domString += '</div>';
   util.printToDom('bioPage', domString);
-}
+};
 
 export default { buildBioPage };
     
