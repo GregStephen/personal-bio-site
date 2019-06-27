@@ -1,0 +1,34 @@
+{
+  "tech1": {
+    "name": "jQuery",
+    "icon": "https://png.pngtree.com/svg/20170426/657e78509e.png"
+  },
+  "tech2": {
+    "name": "HTML5",
+    "icon": "https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png"
+  },
+  "tech3": {
+    "name": "JavaScript",
+    "icon": "http://chittagongit.com/download/393508"
+  },
+  "tech4": {
+    "name": "Sass",
+    "icon": "https://sass-lang.com/assets/img/styleguide/color-1c4aab2b.png"
+  },
+  "tech5": {
+    "name": "React",
+    "icon": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+  },
+  "tech6": {
+    "name": "Firebase",
+    "icon": "https://firebase.google.com/downloads/brand-guidelines/PNG/logo-logomark.png"
+  },
+  "tech7": {
+    "name": "GitHub",
+    "icon": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+  },
+  "tech8": {
+    "name": "Bootstrap",
+    "icon": "https://cdn.iconscout.com/icon/free/png-256/bootstrap-226077.png"
+  }
+}
