@@ -21,8 +21,8 @@ const createProjectCards = () => {
         domString +=    `<img class="projectScreenshot" src=${project.screenshot}>`;
         domString +=    `<hr class="hrUp">`;
         domString +=    `<p class="projectDescription">${project.description}</p>`;
-        domString +=    '<div class="container">'
-        domString +=      '<div class="projectTechUsed row align-items-center justify-content-around">';
+        domString +=    '<div class="projectTechUsed container">'
+        domString +=      '<div class="row align-items-center justify-content-around">';
         project.techUsed.forEach((tech) => {
           const techToPrint = techGotArray.filter(techn => techn.id === tech);
           domString += `<img class="tech-icon ${techToPrint[0].name}" src=${techToPrint[0].icon}>`;

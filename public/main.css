@@ -86,7 +86,9 @@ li:hover {
     padding: 2em;
     border-bottom: 1px dashed lightblue;
 }
-
+.projectTechUsed {
+    margin-bottom: 1em;
+}
 .tech-icon {
     max-height: 2em;
 }
@@ -113,6 +115,19 @@ hr {
     box-shadow: 0 -10px 10px -10px black inset;
 }
 
+#technologies {
+    width: 85%;
+    margin: auto;
+}
+.tech-div {
+    padding: 1em;
+    margin-bottom: 1.5em;
+    text-align: center;
+    box-shadow: 5px 5px 0px black;
+}
+.tech-page-icon {
+    max-height: 4em;
+}
 /*////////// FOOTER /////////*/
 .page-footer {
     margin-top: 3em;
