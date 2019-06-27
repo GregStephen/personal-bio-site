@@ -4,7 +4,7 @@
     "githubLink": "https://github.com/GregStephen/movieHistory",
     "deployLink": "https://moviehistory-637af.firebaseapp.com/",
     "screenshot": "https://github.com/GregStephen/movieHistory/raw/master/assets/screenshots/watchlist.png",
-    "techUsed": ["HTML", "JavaScript", "SCSS"],
+    "techUsed": ["tech2", "tech3", "tech4", "tech6", "tech8", "tech1"],
     "description" : "A site that allows the user to add movies to a database, rate ones they've watched, and add or remove from a watchlist"
   },
   "project2": {
@@ -12,7 +12,7 @@
     "githubLink": "https://github.com/GregStephen/doggyDaycare",
     "deployLink": "https://doggy-daycare-74511.firebaseapp.com/",
     "screenshot": "http://tippvet.com/wp-content/uploads/2017/02/IMG_3211-Copy.jpg",
-    "techUsed": ["HTML", "JavaScript", "SCSS", "React"],
+    "techUsed": ["tech2", "tech3", "tech4", "tech5", "tech6", "tech8"],
     "description" : "It's a bunch of doggos and employees of the Doggie Daycare"
   },
   "project3": {
@@ -20,7 +20,7 @@
     "githubLink": "https://github.com/GregStephen/nutshell-peanut",
     "deployLink": "https://nutshell-668f6.firebaseapp.com/",
     "screenshot": "https://github.com/GregStephen/nutshell-peanut/raw/master/assets/screenshots/landing_page.png",
-    "techUsed": ["HTML", "JavaScript", "SCSS"],
+    "techUsed": ["tech2", "tech3", "tech4", "tech6", "tech8", "tech1"],
     "description" : "This is a personal website designed to keep track of four aspects of your life. Events to keep track of current and past events. Messages to message your friends who also have an account with Nutshell. Diary to keep track of your thoughts and feelings. News to keep track of your favorite news stories from around the world!"
   }
 }
