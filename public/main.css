@@ -1,7 +1,7 @@
 body {
     margin:0;
     padding:0;
-    background-color: cornflowerblue;
+    background-color: #6495ed;
     padding-bottom: 10em;
     font-family: 'Fjalla One', sans-serif;
 }
@@ -10,6 +10,9 @@ a {
     text-decoration: none;
 }
 
+.fab:hover {
+    text-decoration: none;
+}
 li {
     list-style: none;
     margin:1em;
@@ -37,6 +40,10 @@ li:hover {
     margin-top: -1em;
 }
 
+.selected-nav {
+    color:#D81E5B!important;
+    text-shadow: 2px 2px 1px black;
+}
 /*///////////////BIOPAGE////////////////*/
 
 .bioDiv{
@@ -44,14 +51,14 @@ li:hover {
 }
 
 .bioBit , .bioBit2{
-    background-color: aliceblue;
+    background-color: #f0f8ff;
     padding: 1em;
     line-height: 1.5em;
     text-align: justify;
 }
 
 #bioPic, #bioPic2{
-    border: 5px solid lightblue;
+    border: 5px solid #add8e6;
     display: block;
     height: 100%;
     margin-bottom: 2em;
@@ -175,7 +182,7 @@ hr {
     #myName {
         font-size: 2em;
     }
-
+    
     .bioBit, .bioBit2 {
         border: 1px solid black;
         border-radius: 3%;
@@ -224,6 +231,10 @@ hr {
 
     #navLinks {
         font-size: 2em;
+    }
+
+    .selected-nav {
+        text-shadow: 3px 3px 1px black;
     }
 
     .bioBit, .bioBit2 {
