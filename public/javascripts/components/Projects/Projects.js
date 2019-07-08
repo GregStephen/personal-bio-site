@@ -21,6 +21,7 @@ const createProjectCards = () => {
         domString +=    `<img class="projectScreenshot" src=${project.screenshot}>`;
         domString +=    `<hr class="hrUp">`;
         domString +=    `<p class="projectDescription">${project.description}</p>`;
+        domString +=    '<p>Technology Used:</p>';
         domString +=    '<div class="projectTechUsed container">'
         domString +=      '<div class="row align-items-center justify-content-around">';
         project.techUsed.forEach((tech) => {
@@ -29,7 +30,7 @@ const createProjectCards = () => {
         })
         domString +=  '</div>';
         domString += '</div>';
-        domString +=    `<p class="url">See it <a target="_blank" href=${project.deployLink}>here</a></p>`;
+        domString +=    `<p class="url">Checkout <a target="_blank" href=${project.deployLink}>${project.title}</a></p>`;
         domString +=    `<p class="githubUrl"><a class="fab fa-2x fa-github-alt" target="_blank" href=${project.githubLink}></a></p>`;
         domString += `</div>`;
       })

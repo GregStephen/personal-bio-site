@@ -16,11 +16,17 @@
 #### Mobile projects page:
 ![Mobile Page Load](./assets/screenshots/projects_page_mobile.png)
 
+#### Technologies page:
+![Technologies Page](./assets/screenshots/techn_page.png)
+
 ## Technologies Used: 
 * HTML5
 * CSS
 * JavaScript
 * Flexbox
+
+## View Deployed Site at
+https://personal-website-9263b.firebaseapp.com/
 
 ## How to run:
 
