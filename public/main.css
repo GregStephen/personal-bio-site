@@ -8,8 +8,12 @@ body {
 
 a {
     text-decoration: none;
+    color:#D81E5B;
 }
 
+a:hover {
+    color:rgb(173, 23, 73);
+}
 .fab:hover {
     text-decoration: none;
 }
@@ -95,6 +99,9 @@ li:hover {
 }
 .projectTechUsed {
     margin-bottom: 1em;
+    padding: 1em;
+    border: 1px solid black;
+    box-shadow: -3px 3px 0px black;
 }
 .tech-icon {
     max-height: 2em;
