@@ -1,19 +1,19 @@
 {
   "project1": {
-    "title": "Movie Tracker",
-    "githubLink": "https://github.com/GregStephen/movieHistory",
-    "deployLink": "https://moviehistory-637af.firebaseapp.com/",
-    "screenshot": "https://github.com/GregStephen/movieHistory/raw/master/assets/screenshots/watchlist.png",
-    "techUsed": ["tech2", "tech3", "tech4", "tech6", "tech8", "tech1"],
-    "description" : "A site that allows the user to add movies to a database, rate ones they've watched, and add or remove from a watchlist"
+    "title": "PoopScoop",
+    "githubLink": "https://github.com/GregStephen/poop-scoop",
+    "deployLink": "https://poopscoop-83db3.web.app/",
+    "screenshot": "https://github.com/GregStephen/poop-scoop/raw/master/assets/screenshots/landing_page.png",
+    "techUsed": ["tech2", "tech3", "tech4", "tech5", "tech6", "tech7","tech8", "tech1", "tech9", "tech10"],
+    "description": "A way to rate and review restrooms around your area. Great for people with kids who need access to changing tables or for people who just enjoy a clean restroom! Everything is styled for mobile, tablets and desktop computers."
   },
   "project2": {
-    "title": "Doggy Daycare",
-    "githubLink": "https://github.com/GregStephen/doggyDaycare",
-    "deployLink": "https://doggy-daycare-74511.firebaseapp.com/",
-    "screenshot": "https://github.com/GregStephen/doggyDaycare/blob/master/assets/screenshots/landing_page.png?raw=true",
-    "techUsed": ["tech2", "tech3", "tech4", "tech5", "tech6", "tech8"],
-    "description" : "It's a bunch of doggos and employees of the Doggie Daycare"
+    "title": "DiscDig",
+    "githubLink": "https://github.com/GregStephen/DiscDig1",
+    "deployLink": "",
+    "screenshot": "https://github.com/GregStephen/DiscDig1/raw/master/Assets/Screenshots/landing_page.png",
+    "techUsed": ["tech2", "tech3", "tech4", "tech6", "tech7", "tech8", "tech1", "tech9", "tech10"],
+    "description" : "A full stack application designed to allow the user to search through Discogs vinyl record database and add albums to their own personal collection. From there they can search thru their own collection, place certain albums in subcollections and discover data about their collection."
   },
   "project3": {
     "title": "Nutshell",
@@ -29,14 +29,14 @@
     "deployLink": "https://personal-website-9263b.firebaseapp.com/",
     "screenshot": "https://github.com/GregStephen/personal-bio-site/raw/master/assets/screenshots/page_load.png",
     "techUsed": ["tech2", "tech3", "tech6", "tech8", "tech1"],
-    "description": "It's a website all about me, Greg Stephen. It's really popular, you've probably seen it"
+    "description": "It's a website all about me, Greg Stephen. It's really popular, you've probably seen it."
   },
   "project5": {
-    "title": "Hoarder",
-    "githubLink": "https://github.com/GregStephen/Hoarder",
-    "deployLink": "https://hoarder-e0fae.firebaseapp.com/",
-    "screenshot": "https://github.com/GregStephen/Hoarder/raw/master/assets/screenshots/stuff_page.png",
+    "title": "Doggy Daycare",
+    "githubLink": "https://github.com/GregStephen/doggyDaycare",
+    "deployLink": "https://doggy-daycare-74511.firebaseapp.com/",
+    "screenshot": "https://github.com/GregStephen/doggyDaycare/blob/master/assets/screenshots/landing_page.png?raw=true",
     "techUsed": ["tech2", "tech3", "tech4", "tech5", "tech6", "tech8"],
-    "description": "It shows a hoarders collection of goods. Allows them to view them in a single page, edit or delete them."
+    "description" : "It's a bunch of doggos and employees of the Doggie Daycare."
   }
 }
