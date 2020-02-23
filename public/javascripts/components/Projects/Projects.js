@@ -30,7 +30,10 @@ const createProjectCards = () => {
         })
         domString +=  '</div>';
         domString += '</div>';
-        domString +=    `<p class="url">Checkout <a target="_blank" href=${project.deployLink}>${project.title}</a></p>`;
+        {
+          project.deployLink !== '' ? domString +=    `<p class="url">Checkout <a target="_blank" href=${project.deployLink}>${project.title}</a></p>` 
+          : ''
+        };
         domString +=    `<p class="githubUrl"><a class="fab fa-2x fa-github-alt" target="_blank" href=${project.githubLink}></a></p>`;
         domString += `</div>`;
       })

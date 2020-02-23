@@ -9,7 +9,7 @@
   },
   "tech3": {
     "name": "JavaScript",
-    "icon": "http://chittagongit.com/download/393508"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
   },
   "tech4": {
     "name": "Sass",
@@ -30,5 +30,13 @@
   "tech8": {
     "name": "Bootstrap",
     "icon": "https://cdn.iconscout.com/icon/free/png-256/bootstrap-226077.png"
+  },
+  "tech9": {
+    "name": "C#",
+    "icon": "https://www.freeiconspng.com/uploads/c-logo-icon-18.png"
+  },
+  "tech10": {
+    "name": "T-SQL",
+    "icon": "https://www.freeiconspng.com/uploads/sql-server-icon-png-8.png"
   }
 }
