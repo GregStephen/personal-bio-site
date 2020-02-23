@@ -11,7 +11,7 @@
     "title": "Doggy Daycare",
     "githubLink": "https://github.com/GregStephen/doggyDaycare",
     "deployLink": "https://doggy-daycare-74511.firebaseapp.com/",
-    "screenshot": "http://tippvet.com/wp-content/uploads/2017/02/IMG_3211-Copy.jpg",
+    "screenshot": "https://github.com/GregStephen/doggyDaycare/blob/master/assets/screenshots/landing_page.png?raw=true",
     "techUsed": ["tech2", "tech3", "tech4", "tech5", "tech6", "tech8"],
     "description" : "It's a bunch of doggos and employees of the Doggie Daycare"
   },
@@ -22,5 +22,21 @@
     "screenshot": "https://github.com/GregStephen/nutshell-peanut/raw/master/assets/screenshots/landing_page.png",
     "techUsed": ["tech2", "tech3", "tech4", "tech6", "tech8", "tech1"],
     "description" : "This is a personal website designed to keep track of four aspects of your life. Events to keep track of current and past events. Messages to message your friends who also have an account with Nutshell. Diary to keep track of your thoughts and feelings. News to keep track of your favorite news stories from around the world!"
+  },
+  "project4": {
+    "title": "Personal Site",
+    "githubLink": "https://github.com/GregStephen/personal-bio-site",
+    "deployLink": "https://personal-website-9263b.firebaseapp.com/",
+    "screenshot": "https://github.com/GregStephen/personal-bio-site/raw/master/assets/screenshots/page_load.png",
+    "techUsed": ["tech2", "tech3", "tech6", "tech8", "tech1"],
+    "description": "It's a website all about me, Greg Stephen. It's really popular, you've probably seen it"
+  },
+  "project5": {
+    "title": "Hoarder",
+    "githubLink": "https://github.com/GregStephen/Hoarder",
+    "deployLink": "https://hoarder-e0fae.firebaseapp.com/",
+    "screenshot": "https://github.com/GregStephen/Hoarder/raw/master/assets/screenshots/stuff_page.png",
+    "techUsed": ["tech2", "tech3", "tech4", "tech5", "tech6", "tech8"],
+    "description": "It shows a hoarders collection of goods. Allows them to view them in a single page, edit or delete them."
   }
 }
