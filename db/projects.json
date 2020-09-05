@@ -10,9 +10,9 @@
   "project2": {
     "title": "DiscDig",
     "githubLink": "https://github.com/GregStephen/DiscDig1",
-    "deployLink": "",
+    "deployLink": "https://discdig1.web.app/",
     "screenshot": "https://github.com/GregStephen/DiscDig1/raw/master/Assets/Screenshots/landing_page.png",
-    "techUsed": ["tech2", "tech3", "tech4", "tech6", "tech7", "tech8", "tech1", "tech9", "tech10"],
+    "techUsed": ["tech2", "tech3", "tech4", "tech6", "tech7", "tech8", "tech1", "tech9", "tech10", "tech13"],
     "description" : "A full stack application designed to allow the user to search through Discogs vinyl record database and add albums to their own personal collection. From there they can search thru their own collection, place certain albums in subcollections and discover data about their collection."
   },
   "project3": {
@@ -24,6 +24,22 @@
     "description" : "This is a personal website designed to keep track of four aspects of your life. Events to keep track of current and past events. Messages to message your friends who also have an account with Nutshell. Diary to keep track of your thoughts and feelings. News to keep track of your favorite news stories from around the world!"
   },
   "project4": {
+    "title": "Floppy",
+    "githubLink": "https://github.com/GregStephen/hackybirdHackathon",
+    "deployLink": "https://floppygame.netlify.app/",
+    "screenshot": "https://github.com/GregStephen/hackybirdHackathon/raw/master/src/assets/screenshots/main_menu.JPG",
+    "techUsed": ["tech11", "tech2", "tech3"],
+    "description" : "A Flappy Bird-esque game that won a hackathon."
+  },
+  "project5": {
+    "title": "Show Me What You Got",
+    "githubLink": "https://github.com/GregStephen/hack-to-the-future",
+    "deployLink": "https://gregstephen.github.io/hack-to-the-future/",
+    "screenshot": "https://github.com/GregStephen/hack-to-the-future/raw/master/assets/screenshots/ShowMeWhatYouGot.png",
+    "techUsed": ["tech12", "tech2", "tech3", "tech5"],
+    "description" : "A search based application for Rick and Morty that won a hackathon."
+  },
+  "project6": {
     "title": "Personal Site",
     "githubLink": "https://github.com/GregStephen/personal-bio-site",
     "deployLink": "https://personal-website-9263b.firebaseapp.com/",
@@ -31,7 +47,7 @@
     "techUsed": ["tech2", "tech3", "tech6", "tech8", "tech1"],
     "description": "It's a website all about me, Greg Stephen. It's really popular, you've probably seen it."
   },
-  "project5": {
+  "project7": {
     "title": "Doggy Daycare",
     "githubLink": "https://github.com/GregStephen/doggyDaycare",
     "deployLink": "https://doggy-daycare-74511.firebaseapp.com/",
